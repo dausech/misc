@@ -4,8 +4,8 @@ from OpenSSL import SSL
 import os
 
 context = SSL.Context(SSL.SSLv23_METHOD)
-cer = os.path.join(os.path.dirname(__file__), 'resources/penn.cer')
-key = os.path.join(os.path.dirname(__file__), 'resources/penn.key')
+cer = os.path.join(os.path.dirname(__file__), 'resources/empresa.cer')
+key = os.path.join(os.path.dirname(__file__), 'resources/empresa.key')
 
 app = Flask(__name__)
 
